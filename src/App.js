@@ -6,13 +6,24 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>connect with us:</p>
-        <a
-          className="Portfolio-link"
-          href="https://mdco.netlify.app"
-          target="_blank"
-          rel="noopener noreferrer"
-        ></a>
+        <nav className="navbar">
+          <div className="container">
+            <span className="Nav-bar">
+              <a class="btn btn-primary" href="#" role="button">
+                ABOUT
+              </a>
+              <a class="btn btn-primary" href="#" role="button">
+                Current Projects
+              </a>
+              <a class="btn btn-primary" href="#" role="button">
+                Previous Work
+              </a>
+              <a class="btn btn-primary" href="#" role="button">
+                Contact Me
+              </a>
+            </span>
+          </div>
+        </nav>
       </header>
     </div>
   );
