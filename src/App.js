@@ -1,13 +1,18 @@
-import AppHeader from "./AppHeader.js";
+import AppHeader from "./AppHeader";
 import "./App.css";
-import Headshot from "./Headshot.js";
+import Headshot from "./Headshot";
+import Intro from "./Intro";
+import bootstrap from "bootstrap";
+
+const bootstrap = require("bootstrap");
 
 function App() {
   return (
     <div className="App">
       <AppHeader />
+      <Headshot />
       <div class="container">
-        <Headshot />
+        <Intro />
       </div>
     </div>
   );
