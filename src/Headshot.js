@@ -2,7 +2,12 @@ import JenHeadshot from "./Jen-headshot-option3.svg";
 
 function Headshot() {
   return (
-    <img src={JenHeadshot} className="Jen-Headshot" alt="Jen Luchka Headshot" />
+    <img
+      src={JenHeadshot}
+      className="Jen-Headshot"
+      alt="Jen Luchka Headshot"
+      rounded="true"
+    />
   );
 }
 

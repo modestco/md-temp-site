@@ -1,0 +1,20 @@
+.App {
+  font-family: "Poppins", sans-serif;
+  background-color: #171539;
+  color: white;
+}
+
+.App-logo {
+  align-items: right;
+  max-width: 60%;
+}
+
+.Jen-Headshot {
+  position: fixed;
+  max-height: 60%;
+}
+
+.nav-link {
+  color: white;
+  text-transform: uppercase;
+}
