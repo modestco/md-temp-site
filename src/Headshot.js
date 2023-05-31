@@ -1,14 +1,5 @@
-import JenHeadshot from "./Jen-headshot-option3.svg";
-
-function Headshot() {
-  return (
-    <img
-      src={JenHeadshot}
-      className="Jen-Headshot"
-      alt="Jen Luchka Headshot"
-      rounded="true"
-    />
-  );
+function JenHeadshot() {
+  return <img src="./Jen-headshot-option3.svg"></img>;
 }
 
-export default Headshot;
+export default JenHeadshot;

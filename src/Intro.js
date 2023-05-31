@@ -1,20 +1,31 @@
+import JenHeadshot from "./Jen-headshot-option3.svg";
+import logo from "./logo.svg";
+
 function introparts() {
   return (
-    <div class="container">
-      <h1>Welcome, I'm Jen! I'm a Canadian front-end developer. </h1>
-      <p>
-        My graphic design experience spans over 15 years and multiple
-        industries, but my favourite projects have been my freelance clients.
-      </p>
-      <p>
-        My graphic design experience spans over 15 years and multiple
-        industries, but my favourite projects have been my freelance clients.
-      </p>
-      <p>
-        My current passion project is working with Generation X + to assist with
-        teaching minor tech tips and tricks to make their lives easier.
-        <a>find out more</a>
-      </p>
+    <div className="container text-left">
+      <div className="row">
+        <div className="col-sm-6">
+          <img src={logo} className="AppLogo img-fluid" />
+          <div className="container-fluid">
+            <span className="fa-brands fa-canadian-maple-leaf"></span> Proud
+            Canadian <br />
+            <span className="fa-brands fa-canadian-maple-leaf"></span>{" "}
+            Passionate Front-End Developer <br />
+            <span className="fa-brands fa-canadian-maple-leaf"></span>{" "}
+            Accomplished Graphic Designer
+          </div>
+        </div>
+        <div className="col-sm-6">
+          <div>
+            <img
+              src={JenHeadshot}
+              className="Jen-headshot img-fluid"
+              alt="JenLuchka headshot"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,34 +1,3 @@
-.App {
-  font-family: "Poppins", sans-serif;
+body {
   background-color: #171539;
-  color: white;
-}
-
-.App-logo {
-  align-items: start;
-  max-width: 60%;
-}
-
-.Jen-Headshot {
-  position: fixed;
-  max-height: 60%;
-}
-
-.nav-link {
-  color: #f8049c;
-  text-transform: uppercase;
-}
-
-.nav-link:hover {
-  color: #0cc0df;
-}
-
-.nav-link:checked {
-  color: #f8049c;
-}
-
-a.navbar-brand {
-  margin: 0 auto;
-  padding: 0;
-  width: fit-content;
 }

@@ -1,0 +1,75 @@
+/**--------page elements-------**/
+
+body {
+  font-family: "Poppins";
+  background-color: #171539;
+  color: white;
+}
+
+/**--------font awesome-------**/
+
+.fa-canadian-maple-leaf {
+  color: #0cc0df;
+}
+.fa-canadian-maple-leaf:hover {
+  color: #0cc0df;
+  animation: spin 1s linear;
+}
+
+/**--------navbar-------**/
+a.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+.nav-link {
+  color: #f8049c;
+  text-transform: uppercase;
+}
+.nav-link:active {
+  color: #f8049c;
+}
+.nav-link:hover {
+  color: #0cc0df;
+}
+
+.nav-link:checked {
+  color: #f8049c;
+}
+
+li.nav-tabs:active {
+  color: #0cc0df;
+}
+
+.text-highlight {
+  color: #f8049c;
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  background: none;
+}
+.btn-outline-primary,
+.btn-outline-success {
+  border: 1px solid #0cc0df;
+  color: #0cc0df;
+  margin: 5px 0;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.btn-outline-primary:hover {
+  color: #f8049c;
+  border: 1px solid #f8049c;
+  background-color: #171539;
+}
+
+/**--------animations-------**/
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
