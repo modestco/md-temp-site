@@ -10,7 +10,10 @@ a {
   text-decoration: none;
   color: white;
 }
-
+h6 {
+  font-size: small;
+  text-align: center;
+}
 .heading {
   font-family: "Pacifico", cursive;
   font-size: 100px;
@@ -30,23 +33,31 @@ a {
 }
 /**--------font awesome-------**/
 
-.fa-canadian-maple-leaf,
-.fa-swatchbook,
-.fa-rectangle-terminal,
 .fa-burger {
-  color: #0cc0df;
+  color: #171539;
+  width: 30px;
+  height: 30px;
+}
+.fa-burger:hover {
+  color: #f8049c;
+  width: 30px;
+  height: 30px;
+  animation: spin 0.5s linear;
 }
 
 .fa-react,
 .fa-bootstrap,
-.fa-github,
-.fa-message-smile {
-  color: #f8049c;
+.fa-apple,
+.svgVS {
+  color: white;
   width: 60px;
   height: 60px;
 }
 
-.fa-canadian-maple-leaf:hover {
+.fa-react:hover,
+.fa-bootstrap:hover,
+.fa-apple:hover,
+.svgVS:hover {
   color: #0cc0df;
   animation: spin 1s linear;
 }
@@ -56,15 +67,11 @@ a {
   align-items: center;
 }
 
-a.navbar-brand {
-  margin: 0;
-  padding: 0;
-}
 .nav-link {
   color: #f8049c;
   text-transform: uppercase;
 }
-.nav-link:active {
+a.nav-link:active {
   color: #f8049c;
 }
 .nav-link:hover {
@@ -86,21 +93,6 @@ li.nav-tabs:active {
 
 .navbar-toggler {
   border: none;
-}
-
-.btn-outline-primary,
-.btn-outline-success {
-  border: 1px solid #0cc0df;
-  color: #0cc0df;
-  margin: 5px 0;
-  text-transform: uppercase;
-  font-family: "Courier New", Courier, monospace;
-}
-
-.btn-outline-primary:hover {
-  color: #f8049c;
-  border: 1px solid #f8049c;
-  background-color: #171539;
 }
 
 h5 {

@@ -1,7 +1,7 @@
 import AppHeader from "./AppHeader";
 import "./App.css";
-import Intro from "./Intro";
 import AboutMe from "./aboutme";
+import Intro from "./intro";
 
 function App() {
   return (
