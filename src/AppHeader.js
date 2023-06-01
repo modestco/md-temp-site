@@ -19,17 +19,21 @@ function AppHeader() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a
+                className="nav-link active"
+                aria-current="page"
+                href="www.jenluchka.com"
+              >
                 <span className="fa-duotone fa-house-heart" /> HOME
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="./aboutme">
+              <a className="nav-link" href="www.jenluchka.com">
                 <span className="fa-duotone fa-address-card" /> ABOUT
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="www.jenluchka.com">
                 <span className="fa-duotone fa-square-kanban" /> PROJECTS
               </a>
             </li>
