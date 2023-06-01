@@ -1,43 +1,42 @@
 import "./AppHeader.css";
-import emblem from "./emblem.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 
 function AppHeader() {
   return (
-    <>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand href="#home">
-            <img
-              src={emblem}
-              className="JenLuchkaPhoto"
-              alt="Jen Emblem Logo"
-            />
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#about">about</Nav.Link>
-              <Nav.Link href="#clients">clients</Nav.Link>
-              <NavDropdown title="projects" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Design</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Development
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Gaming</NavDropdown.Item>
-              </NavDropdown>
-            </Nav>
-            <Nav>
-              <Nav.Link href="#email">jen@jenniferluchka.com</Nav.Link>
-              <Nav.Link eventKey={2} href="#location">
-                London Ontario
-              </Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-    </>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary text-center">
+      <div class="container-fluid">
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className=" fa-duotone fa-burger"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">
+                <span className="fa-duotone fa-house-heart" /> HOME
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="./aboutme">
+                <span className="fa-duotone fa-address-card" /> ABOUT
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                <span className="fa-duotone fa-square-kanban" /> PROJECTS
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   );
 }
 

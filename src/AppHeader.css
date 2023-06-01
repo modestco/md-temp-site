@@ -6,17 +6,56 @@ body {
   color: white;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.heading {
+  font-family: "Pacifico", cursive;
+  font-size: 100px;
+  color: white;
+}
+.sub {
+  font-size: 30px;
+  color: #0cc0df;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  letter-spacing: 5px;
+}
+.intro-parts {
+  margin-top: 100px;
+  margin-left: 30px;
+}
 /**--------font awesome-------**/
 
-.fa-canadian-maple-leaf {
+.fa-canadian-maple-leaf,
+.fa-swatchbook,
+.fa-rectangle-terminal,
+.fa-burger {
   color: #0cc0df;
 }
+
+.fa-react,
+.fa-bootstrap,
+.fa-github,
+.fa-message-smile {
+  color: #f8049c;
+  width: 60px;
+  height: 60px;
+}
+
 .fa-canadian-maple-leaf:hover {
   color: #0cc0df;
   animation: spin 1s linear;
 }
 
 /**--------navbar-------**/
+.navbar {
+  align-items: center;
+}
+
 a.navbar-brand {
   margin: 0;
   padding: 0;
@@ -46,8 +85,9 @@ li.nav-tabs:active {
 }
 
 .navbar-toggler {
-  background: none;
+  border: none;
 }
+
 .btn-outline-primary,
 .btn-outline-success {
   border: 1px solid #0cc0df;
@@ -61,6 +101,11 @@ li.nav-tabs:active {
   color: #f8049c;
   border: 1px solid #f8049c;
   background-color: #171539;
+}
+
+h5 {
+  line-height: 40px;
+  margin-left: 20px;
 }
 
 /**--------animations-------**/
