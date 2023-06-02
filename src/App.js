@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <AppHeader />
 
-      <div class="container">
+      <div className="container">
         <Intro />
         <AboutMe />
       </div>

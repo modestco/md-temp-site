@@ -3,8 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function AppHeader() {
   return (
-    <nav class="navbar navbar-expand-lg bg-body-tertiary text-center">
-      <div class="container-fluid">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary text-center">
+      <div className="container-fluid">
         <button
           className="navbar-toggler"
           type="button"
