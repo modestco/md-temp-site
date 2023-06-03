@@ -33,13 +33,8 @@ function introparts() {
                 <h6>Mac OS</h6>
               </div>
               <div className="col-3">
-                <img
-                  src={VScode}
-                  height="30px"
-                  width="30px"
-                  className="svgVS"
-                />
-                <h6>Visual Studio Code</h6>
+                <img src={VScode} className="svgVS" />
+                <h6>VS Code</h6>
               </div>
             </div>
           </div>

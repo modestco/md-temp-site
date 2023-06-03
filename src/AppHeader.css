@@ -6,13 +6,21 @@ body {
   color: white;
 }
 
-a {
-  text-decoration: none;
-  color: white;
+h5 {
+  line-height: 40px;
+  margin-left: 20px;
 }
 h6 {
   font-size: small;
   text-align: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  font-size: larger;
 }
 .heading {
   font-family: "Pacifico", cursive;
@@ -62,14 +70,16 @@ h6 {
   animation: spin 1s linear;
 }
 
-/**--------navbar-------**/
-.navbar {
-  align-items: center;
+.col-3 {
+  text-align: center;
 }
+
+/**--------navbar-------**/
 
 .nav-link {
   color: #f8049c;
   text-transform: uppercase;
+  text-align: center;
 }
 a.nav-link:active {
   color: #f8049c;
@@ -93,11 +103,6 @@ li.nav-tabs:active {
 
 .navbar-toggler {
   border: none;
-}
-
-h5 {
-  line-height: 40px;
-  margin-left: 20px;
 }
 
 /**--------animations-------**/
