@@ -10,7 +10,7 @@ function introparts() {
             <img
               src={JenHeadshot}
               className="Jen-headshot img-fluid"
-              alt="JenLuchka headshot"
+              alt="JenLuchka-headshot"
             />
           </div>
         </div>
@@ -33,7 +33,7 @@ function introparts() {
                 <h6>Mac OS</h6>
               </div>
               <div className="col-3">
-                <img src={VScode} className="svgVS" />
+                <img src={VScode} className="svgVS" alt="" />
                 <h6>VS Code</h6>
               </div>
             </div>
