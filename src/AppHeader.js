@@ -1,5 +1,4 @@
 import "./AppHeader.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 function AppHeader() {
   return (
