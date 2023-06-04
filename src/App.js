@@ -1,13 +1,10 @@
-import AppHeader from "./AppHeader";
-import "./App.css";
-import AboutMe from "./aboutme";
 import Intro from "./intro";
+import AboutMe from "./aboutme";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <AppHeader />
-
       <div className="container">
         <Intro />
         <AboutMe />
