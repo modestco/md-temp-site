@@ -1,4 +1,4 @@
-import JenHeadshot from "./Jen-headshot-option3.svg";
+import JenHeadshot from "./Jen-Poloroid.png";
 import VScode from "./svgVS.svg";
 
 function introparts() {
