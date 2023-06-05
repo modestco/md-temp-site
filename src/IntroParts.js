@@ -3,7 +3,6 @@ import ModestBoard1 from "./1.jpg";
 import ModestBoard2 from "./2.jpg";
 import VScode from "./svgVS.svg";
 import ModestCo from "./ModestCo";
-import Footer from "./Footer";
 import "./App.css";
 
 var coll = document.getElementsByClassName("collapsible");
