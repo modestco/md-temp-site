@@ -1,6 +1,7 @@
 import JenHeadshot from "./JenHeadshot.png";
 import mdCoLink from "./mdco-website-link.gif";
 import VScode from "./svgVS.svg";
+import ModestCo from "./ModestCo";
 import "./App.css";
 
 function introparts() {
@@ -76,7 +77,7 @@ function introparts() {
           Check out the rebrand and her recent clients{" "}
           <div className="fa-duotone fa-arrow-down-long"></div>
         </h2>
-        <a href="./ModestCo.js" target="_blank" rel="noopener noreferrer">
+        <a src={ModestCo} target="_blank" rel="noopener noreferrer">
           <img className="md-co-gif" src={mdCoLink} alt="" width="300px" />
         </a>
         <br />
