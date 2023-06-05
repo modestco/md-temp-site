@@ -12,27 +12,27 @@ function ModestCo() {
       <h3>Recent clients</h3>
       <div className="row">
         <div className="col-3">
-          <img src={FurryFriends} className="img-fluid" />
+          <img src={FurryFriends} className="img-fluid" alt="" />
         </div>
         <div className="col-3">
-          <img src={KatieMoon} className="img-fluid" />
+          <img src={KatieMoon} className="img-fluid" alt="" />
         </div>
         <div className="col-3">
-          <img src={GlowUp} className="img-fluid GlowUp" />
+          <img src={GlowUp} className="img-fluid GlowUp" alt="" />
         </div>
         <div className="col-3">
-          <img src={MidoriHair} className="img-fluid" />
+          <img src={MidoriHair} className="img-fluid" alt="" />
         </div>
       </div>
       <div className="row">
         <div className="col-3">
-          <img src={PineGroove} className="img-fluid" />
+          <img src={PineGroove} className="img-fluid" alt="" />
         </div>
         <div className="col-3">
-          <img src={TicTacToe} className="img-fluid" />
+          <img src={TicTacToe} className="img-fluid" alt="" />
         </div>
         <div className="col-3">
-          <img src={StonesThrow} className="img-fluid" />
+          <img src={StonesThrow} className="img-fluid" alt="" />
         </div>
       </div>
     </div>
