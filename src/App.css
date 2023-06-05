@@ -3,7 +3,9 @@ body {
   background-color: #171539;
   color: white;
 }
-
+h2 {
+  margin-bottom: 20px;
+}
 h3 {
   font-family: "Pacifico", cursive;
   font-size: 50px;
@@ -24,6 +26,7 @@ h5 {
   line-height: 40px;
   margin-left: 20px;
   text-align: left;
+  margin-bottom: 10px;
 }
 h6 {
   font-size: small;
@@ -37,10 +40,7 @@ a {
   color: #f8049c;
   background-color: rgba(255, 255, 255, 0.2);
 }
-.md-co-gif {
-  display: block;
-  margin: 0 auto;
-}
+
 .heading {
   font-family: "Pacifico", cursive;
   font-size: 100px;
@@ -63,6 +63,7 @@ a {
   text-transform: uppercase;
   letter-spacing: 5px;
   text-align: center;
+  margin: 20px 10px;
 }
 .intro-parts {
   margin-top: 100px;
@@ -96,9 +97,14 @@ a {
   height: 60px;
 }
 .fa-arrow-down-long {
-  height: 30px;
+  height: 50px;
   color: #0cc0df;
+  margin-top: 10px;
 }
+.fa-arrow-down-long:hover {
+  animation: spin 1s linear;
+}
+
 .fa-react:hover {
   color: #0cc0df;
   animation: spin 1s linear;

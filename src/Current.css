@@ -1,6 +1,11 @@
+h3 {
+  text-align: left;
+  margin-top: 30px;
+}
+
 .accordion {
   background-color: rgba(255, 255, 255, 0.202);
-  margin-top: 50px;
+  margin-top: 15px;
   font-size: 30px;
   color: #ffffff;
   border: 1px solid white;
@@ -25,11 +30,6 @@
   text-align: left;
 }
 
-h3 {
-  text-align: left;
-  margin-top: 30px;
-  margin-left: 50px;
-}
 .active,
 .accordion:hover {
   background-color: white;
@@ -42,4 +42,7 @@ h3 {
 }
 .panel {
   margin: 10px 50px;
+}
+.JenFile {
+  margin-left: 50px;
 }

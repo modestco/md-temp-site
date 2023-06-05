@@ -45,10 +45,10 @@ function introparts() {
       </div>
       <h3 className="leftHeading">A brief history;</h3>
       <h5 className="firstpara">
-        Jen is a passionate designer with 15 years of experience, spanning
-        across multiple industries. Her corporate employment history is focused
-        on Marketing and Graphic Design, with a diploma in Business from
-        Sheridan College. Check out{" "}
+        Jen is a passionate designer with 15 years of experience spanning across
+        multiple industries. Her corporate employment history is focused on
+        Marketing and Graphic Design, with a diploma in Business from Sheridan
+        College. Check out{" "}
         <a
           className="MDco"
           href="https://www.linkedin.com/in/jenluchka/"
@@ -74,14 +74,14 @@ function introparts() {
         rebranded MD.co to showcase how far her design skills have come, while
         bringing the brand into 2023 and beyond.
         <h2 className="subheading">
-          Check out the rebrand and her recent clients{" "}
+          Check out the rebrand and her recent clients <br />
           <div className="fa-duotone fa-arrow-down-long"></div>
-          <br />
-          <div className="container-fluid">
-            <img src={ModestBoard1} className="img-fluid" alt="" />
-            <img src={ModestBoard2} className="img-fluid" alt="" />
-          </div>
         </h2>
+        <br />
+        <div className="container-fluid">
+          <img src={ModestBoard1} className="img-fluid" alt="" />
+          <img src={ModestBoard2} className="img-fluid" alt="" />
+        </div>
         <br />
         Jen's passion{" "}
         <em>
@@ -117,7 +117,7 @@ function introparts() {
         >
           SheCodes Profile
         </a>{" "}
-        to see her progression during the program.
+        to see her progression through the program.
       </h5>
     </div>
   );

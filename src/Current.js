@@ -4,7 +4,7 @@ function currentClients() {
   return (
     <div className="container-fluid">
       <div className="fromJen">
-        <h3>From Jen's files</h3>
+        <h3 className="JenFile">From Jen's files</h3>
         <div className="row">
           <div className="col-lg text-start">
             <button type="button" className="accordion">
