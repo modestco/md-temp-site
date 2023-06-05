@@ -6,7 +6,7 @@ function currentClients() {
       <div className="fromJen">
         <h3>From Jen's files</h3>
         <div className="row">
-          <div className="col-lg text-center">
+          <div className="col-lg text-start">
             <button type="button" className="accordion">
               My passion project{" "}
               <span className="fa-solid fa-hand-point-right" /> Tech Tips for
@@ -30,7 +30,7 @@ function currentClients() {
               </p>
             </div>
 
-            <button type="button" className="accordion">
+            <button className="accordion">
               Client Spotlight <span className="fa-solid fa-hand-point-right" />
               EV Love Co.
             </button>
@@ -55,7 +55,7 @@ function currentClients() {
               </p>
             </div>
 
-            <button type="button" className="accordion">
+            <button className="accordion">
               My first app
               <span className="fa-solid fa-hand-point-right" />
               Weather Forecast
@@ -83,20 +83,6 @@ function currentClients() {
       </div>
     </div>
   );
-}
-var coll = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function () {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    }
-  });
 }
 
 export default currentClients;

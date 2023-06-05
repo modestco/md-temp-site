@@ -47,7 +47,7 @@ function introparts() {
       <h5 className="firstpara">
         Jen is a passionate designer with 15 years of experience, spanning
         across multiple industries. Her corporate employment history is focused
-        on Marketing and Graphic Design, and all the information can be found on{" "}
+        on Marketing and Graphic Design, with a diploma in Business.Check out{" "}
         <a
           className="MDco"
           href="https://www.linkedin.com/in/jenluchka/"
@@ -56,11 +56,11 @@ function introparts() {
         >
           her LinkedIn profile
         </a>
-        . <br />
-        Jen has thoroughly enjoyed assisting small businesses and independent
-        contractors with brand itentities, logos, social media support, and a
-        wide range of digital and print collatoral over the years. She has her
-        own brand{" "}
+        for her corporate resume. <br />
+        Aside from working for corporations, Jen has thoroughly enjoyed
+        assisting small businesses and independent contractors with brand
+        itentities, logos, social media support, and a wide range of digital and
+        print collatoral over the years. She has her own brand{" "}
         <a
           className="MDco"
           href="https://www.instagram.com/creativelymodest/"
@@ -116,9 +116,6 @@ function introparts() {
         </a>{" "}
         to see her progression during the program.
       </h5>
-      <div className="current">
-        <Current />
-      </div>
     </div>
   );
 }
