@@ -77,7 +77,7 @@ function introparts() {
           Check out the rebrand and her recent clients{" "}
           <div className="fa-duotone fa-arrow-down-long"></div>
         </h2>
-        <a src={ModestCo} target="_blank" rel="noopener noreferrer">
+        <a href={ModestCo} target="_blank" rel="noopener noreferrer">
           <img className="md-co-gif" src={mdCoLink} alt="" width="300px" />
         </a>
         <br />
