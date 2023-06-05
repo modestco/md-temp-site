@@ -1,7 +1,7 @@
 import JenHeadshot from "./JenHeadshot.png";
-import mdCoLink from "./mdco-website-link.gif";
+import ModestBoard1 from "./1.jpg";
+import ModestBoard2 from "./2.jpg";
 import VScode from "./svgVS.svg";
-import ModestCo from "./ModestCo";
 import "./App.css";
 
 function introparts() {
@@ -20,7 +20,7 @@ function introparts() {
         <div className="col-md-6">
           <h2 className="heading">Jen Luchka</h2>
           <h2 className="sub">Front-End Developer</h2>
-          <h3>Pairs well with:</h3>
+          <h3 className="pair">Pairs well with:</h3>
           <div className="container-fluid">
             <div className="row">
               <div className="col-3">
@@ -76,10 +76,12 @@ function introparts() {
         <h2 className="subheading">
           Check out the rebrand and her recent clients{" "}
           <div className="fa-duotone fa-arrow-down-long"></div>
+          <br />
+          <div className="container-fluid">
+            <img src={ModestBoard1} className="img-fluid" alt="" />
+            <img src={ModestBoard2} className="img-fluid" alt="" />
+          </div>
         </h2>
-        <a href={ModestCo} target="_blank" rel="noopener noreferrer">
-          <img className="md-co-gif" src={mdCoLink} alt="" width="300px" />
-        </a>
         <br />
         Jen's passion{" "}
         <em>

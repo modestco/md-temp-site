@@ -10,6 +10,7 @@
   border: none;
   text-align: left;
   outline: none;
+  margin-left: 50px;
 
   text-transform: uppercase;
 }
@@ -27,6 +28,7 @@
 h3 {
   text-align: left;
   margin-top: 30px;
+  margin-left: 50px;
 }
 .active,
 .accordion:hover {
@@ -37,4 +39,7 @@ h3 {
 .active,
 .fa-hand-point-right {
   color: #f8049c;
+}
+.panel {
+  margin: 10px 50px;
 }

@@ -1,5 +1,3 @@
-import "./ModestCo.css";
-
 function ModestCo() {
   return (
     <div className="container-fluid">

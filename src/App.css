@@ -10,6 +10,9 @@ h3 {
   text-align: center;
   color: #f8049c;
 }
+h3.pair {
+  text-align: center;
+}
 h4 {
   font-family: "Pacifico", cursive;
   font-size: 30px;
