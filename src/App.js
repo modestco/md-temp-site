@@ -1,4 +1,4 @@
-import Intro from "./intro";
+import Intro from "./intro.js";
 import "./App.css";
 import Current from "./Current";
 
