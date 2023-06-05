@@ -2,7 +2,24 @@ import JenHeadshot from "./JenHeadshot.png";
 import ModestBoard1 from "./1.jpg";
 import ModestBoard2 from "./2.jpg";
 import VScode from "./svgVS.svg";
+import ModestCo from "./ModestCo";
+import Footer from "./Footer";
 import "./App.css";
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight) {
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
 
 function introparts() {
   return (
@@ -44,7 +61,7 @@ function introparts() {
         </div>
       </div>
       <h3 className="leftHeading">A brief history;</h3>
-      <h5 className="firstpara">
+      <h5>
         Jen is a passionate designer with 15 years of experience spanning across
         multiple industries. Her corporate employment history is focused on
         Marketing and Graphic Design, with a diploma in Business from Sheridan
@@ -73,14 +90,19 @@ function introparts() {
         she has been building outside of her 9-5 since 2012. She recently
         rebranded MD.co to showcase how far her design skills have come, while
         bringing the brand into 2023 and beyond.
-        <h2 className="subheading">
-          Check out the rebrand and her recent clients <br />
-          <div className="fa-duotone fa-arrow-down-long"></div>
-        </h2>
         <br />
-        <div className="container-fluid">
-          <img src={ModestBoard1} className="img-fluid" alt="" />
-          <img src={ModestBoard2} className="img-fluid" alt="" />
+        <button type="button" className="collapsible">
+          <h2 className="subheading">
+            Check out her rebrand and recent clients
+          </h2>
+        </button>
+        <br />
+        <div className="content">
+          <div className="container-fluid">
+            <img src={ModestBoard1} className="img-fluid" alt="" />
+            <img src={ModestBoard2} className="img-fluid" alt="" />
+          </div>
+          <ModestCo />
         </div>
         <br />
         Jen's passion{" "}

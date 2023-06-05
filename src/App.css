@@ -36,6 +36,31 @@ a {
   text-decoration: none;
   color: white;
 }
+.collapsible {
+  background: none;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+  color: #f8049c;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  display: none;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
 .MDco {
   color: #f8049c;
   background-color: rgba(255, 255, 255, 0.2);
@@ -123,6 +148,14 @@ a {
 
 .col-3 {
   text-align: center;
+  max-width: 300px;
+  max-height: 300px;
+  margin: 0 auto;
+  padding: none;
+}
+.GlowUp {
+  background-color: white;
+  padding: 48px 15px;
 }
 
 @keyframes spin {
@@ -133,4 +166,10 @@ a {
     transform: rotate(360deg);
   }
 }
-/**--------navbar-------**/
+/**--------footer-------**/
+
+.footer {
+  text-align: center;
+  font-family: ;
+  text-transform: capitalize;
+}

@@ -1,4 +1,5 @@
 import "./Current.css";
+import Footer from "./Footer";
 
 function currentClients() {
   return (
@@ -81,6 +82,7 @@ function currentClients() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

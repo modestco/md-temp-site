@@ -1,38 +1,38 @@
+import FurryFriends from "./img/clients/furry-friends.jpg";
+import KatieMoon from "./img/clients/katie-moon.jpg";
+import GlowUp from "./img/clients/TheGLOWup_LOGO-gradient.png";
+import MidoriHair from "./img/clients/hair-midori.jpg";
+import PineGroove from "./img/clients/pine-groove.jpg";
+import TicTacToe from "./img/clients/tic-tac-toes.jpg";
+import StonesThrow from "./img/clients/stones-throw.jpg";
+
 function ModestCo() {
   return (
     <div className="container-fluid">
+      <h3>Recent clients</h3>
       <div className="row">
         <div className="col-3">
-          <img src="./img/clients/furry-friends.jpg" alt="Furry Friends Logo" />
+          <img src={FurryFriends} className="img-fluid" />
         </div>
         <div className="col-3">
-          <img src="./img/clients/katie-moon.jpg" alt="Katie Moon Logo" />
+          <img src={KatieMoon} className="img-fluid" />
         </div>
         <div className="col-3">
-          <img
-            src="./img/clients/TheGLOWup_LOGO-gradient.jpg"
-            alt="The Glow Up Logo"
-          />
+          <img src={GlowUp} className="img-fluid GlowUp" />
         </div>
         <div className="col-3">
-          <img src="./img/clients/hair-midori.jpg" alt="Midori Hair Logo" />
+          <img src={MidoriHair} className="img-fluid" />
         </div>
       </div>
       <div className="row">
         <div className="col-3">
-          <img src="./img/clients/pine-groove.jpg" alt="Pine Groove Logo" />
+          <img src={PineGroove} className="img-fluid" />
         </div>
         <div className="col-3">
-          <img
-            src="./img/clients/tic-tac-toe.jpg"
-            alt="Tic Tac Toe Physio Logo"
-          />
+          <img src={TicTacToe} className="img-fluid" />
         </div>
         <div className="col-3">
-          <img
-            src="./img/clients/stones-throw.jpg"
-            alt="Stones Throw Landscaping Logo"
-          />
+          <img src={StonesThrow} className="img-fluid" />
         </div>
       </div>
     </div>
