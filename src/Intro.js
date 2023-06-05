@@ -2,7 +2,6 @@ import JenHeadshot from "./JenHeadshot.png";
 import mdCoLink from "./mdco-website-link.gif";
 import VScode from "./svgVS.svg";
 import "./App.css";
-import Current from "./Current";
 
 function introparts() {
   return (
