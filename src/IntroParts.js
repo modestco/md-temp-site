@@ -1,0 +1,122 @@
+import JenHeadshot from "./JenHeadshot.png";
+import mdCoLink from "./mdco-website-link.gif";
+import VScode from "./svgVS.svg";
+import "./App.css";
+
+function introparts() {
+  return (
+    <div className="container text-left intro-parts">
+      <div className="row">
+        <div className="col-md-6">
+          <div>
+            <img
+              src={JenHeadshot}
+              className="Jen-headshot img-fluid"
+              alt="JenLuchka-headshot"
+            />
+          </div>
+        </div>
+        <div className="col-md-6">
+          <h2 className="heading">Jen Luchka</h2>
+          <h2 className="sub">Front-End Developer</h2>
+          <h3>Pairs well with:</h3>
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col-3">
+                <div className="fa-brands fa-react"></div>
+                <h6> React </h6>
+              </div>
+              <div className="col-3">
+                <div className="fa-brands fa-bootstrap"></div>
+                <h6> Bootstrap </h6>
+              </div>
+              <div className="col-3">
+                <div className="fa-brands fa-apple"></div>
+                <h6>Mac OS</h6>
+              </div>
+              <div className="col-3">
+                <img src={VScode} className="svgVS" alt="" />
+                <h6>VS Code</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3 className="leftHeading">A brief history;</h3>
+      <h5 className="firstpara">
+        Jen is a passionate designer with 15 years of experience, spanning
+        across multiple industries. Her corporate employment history is focused
+        on Marketing and Graphic Design, with a diploma in Business.Check out{" "}
+        <a
+          className="MDco"
+          href="https://www.linkedin.com/in/jenluchka/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          her LinkedIn profile
+        </a>
+        for her corporate resume. <br />
+        Aside from working for corporations, Jen has thoroughly enjoyed
+        assisting small businesses and independent contractors with brand
+        itentities, logos, social media support, and a wide range of digital and
+        print collatoral over the years. She has her own brand{" "}
+        <a
+          className="MDco"
+          href="https://www.instagram.com/creativelymodest/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Modest Design Co <div className="fa-brands fa-instagram"></div>
+        </a>
+        she has been building outside of her 9-5 since 2012. She recently
+        rebranded MD.co to showcase how far her design skills have come, while
+        bringing the brand into 2023 and beyond.
+        <h2 className="subheading">
+          Check out the rebrand and her recent clients{" "}
+          <div className="fa-duotone fa-arrow-down-long"></div>
+        </h2>
+        <a href="www.modestco.ca" target="_blank" rel="noopener noreferrer">
+          <img className="md-co-gif" src={mdCoLink} width="300px" />
+        </a>
+        <br />
+        Jen's passion{" "}
+        <em>
+          <strong>read: obsession</strong>
+        </em>{" "}
+        with pixels and UI design lead her to{" "}
+        <a
+          className="MDco"
+          href="https://www.shecodes.io"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          SheCodes
+        </a>
+        ; an educational platform dedicated to encouraging more women to enter
+        STEM fields and learn how to read and write basic coding languages. She
+        recently completed all courses to successfully graduate with her
+        Front-End Developer certificate. Check her out on the{" "}
+        <a
+          className="MDco"
+          href="https://www.shecodes.io/hall-of-fame?q=Jen+Luchka"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          SheCodes Hall Of Fame
+        </a>
+        , or her{" "}
+        <a
+          className="MDco"
+          href="https://www.shecodes.io/graduates/64786-jen-luchka"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          SheCodes Profile
+        </a>{" "}
+        to see her progression during the program.
+      </h5>
+    </div>
+  );
+}
+
+export default introparts;
