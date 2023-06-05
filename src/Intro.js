@@ -1,5 +1,8 @@
-import JenHeadshot from "./Jen-Poloroid.png";
+import JenHeadshot from "./JenHeadshot.png";
+import mdCoLink from "./mdco-website-link.gif";
 import VScode from "./svgVS.svg";
+import "./App.css";
+import Current from "./Current";
 
 function introparts() {
   return (
@@ -17,7 +20,7 @@ function introparts() {
         <div className="col-md-6">
           <h2 className="heading">Jen Luchka</h2>
           <h2 className="sub">Front-End Developer</h2>
-          <h3>I pair well with:</h3>
+          <h3>Pairs well with:</h3>
           <div className="container-fluid">
             <div className="row">
               <div className="col-3">
@@ -39,6 +42,82 @@ function introparts() {
             </div>
           </div>
         </div>
+      </div>
+      <h3 className="leftHeading">A brief history;</h3>
+      <h5 className="firstpara">
+        Jen is a passionate designer with 15 years of experience, spanning
+        across multiple industries. Her corporate employment history is focused
+        on Marketing and Graphic Design, and all the information can be found on{" "}
+        <a
+          className="MDco"
+          href="https://www.linkedin.com/in/jenluchka/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          her LinkedIn profile
+        </a>
+        . <br />
+        Jen has thoroughly enjoyed assisting small businesses and independent
+        contractors with brand itentities, logos, social media support, and a
+        wide range of digital and print collatoral over the years. She has her
+        own brand{" "}
+        <a
+          className="MDco"
+          href="https://www.instagram.com/creativelymodest/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Modest Design Co <div className="fa-brands fa-instagram"></div>
+        </a>
+        she has been building outside of her 9-5 since 2012. She recently
+        rebranded MD.co to showcase how far her design skills have come, while
+        bringing the brand into 2023 and beyond.
+        <h2 className="subheading">
+          Check out the rebrand and her recent clients{" "}
+          <div className="fa-duotone fa-arrow-down-long"></div>
+        </h2>
+        <a href="www.modestco.ca" target="_blank" rel="noopener noreferrer">
+          <img className="md-co-gif" src={mdCoLink} width="300px" />
+        </a>
+        <br />
+        Jen's passion{" "}
+        <em>
+          <strong>read: obsession</strong>
+        </em>{" "}
+        with pixels and UI design lead her to{" "}
+        <a
+          className="MDco"
+          href="https://www.shecodes.io"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          SheCodes
+        </a>
+        ; an educational platform dedicated to encouraging more women to enter
+        STEM fields and learn how to read and write basic coding languages. She
+        recently completed all courses to successfully graduate with her
+        Front-End Developer certificate. Check her out on the{" "}
+        <a
+          className="MDco"
+          href="https://www.shecodes.io/hall-of-fame?q=Jen+Luchka"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          SheCodes Hall Of Fame
+        </a>
+        , or her{" "}
+        <a
+          className="MDco"
+          href="https://www.shecodes.io/graduates/64786-jen-luchka"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          SheCodes Profile
+        </a>{" "}
+        to see her progression during the program.
+      </h5>
+      <div className="current">
+        <Current />
       </div>
     </div>
   );

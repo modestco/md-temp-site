@@ -1,0 +1,57 @@
+.accordion {
+  background-color: white;
+  margin-top: 50px;
+  color: #171539;
+  border: 1px solid white;
+  cursor: pointer;
+  padding: 10px;
+  width: 70%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.fa-hand-point-right {
+  color: #171539;
+  height: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.leftHeading {
+  text-align: left;
+}
+
+h3 {
+  text-align: left;
+  margin-top: 30px;
+}
+.active,
+.accordion:hover {
+  background-color: white;
+  color: #f8049c;
+}
+
+.active,
+.fa-hand-point-right {
+  color: #f8049c;
+}
+.panel {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+.accordion:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}

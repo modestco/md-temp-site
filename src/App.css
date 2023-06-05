@@ -1,20 +1,26 @@
 body {
-  background-color: #171539;
-}
-.Jen-Headshot {
-  margin-bottom: 100px;
-}
-/**--------page elements-------**/
-
-body {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   background-color: #171539;
   color: white;
 }
 
+h3 {
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+  text-align: center;
+  color: #f8049c;
+}
+h4 {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  margin-top: 10px;
+  text-align: center;
+  color: #f8049c;
+}
 h5 {
   line-height: 40px;
   margin-left: 20px;
+  text-align: left;
 }
 h6 {
   font-size: small;
@@ -24,14 +30,19 @@ a {
   text-decoration: none;
   color: white;
 }
-
-nav {
-  font-size: larger;
+.MDco {
+  color: #f8049c;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.md-co-gif {
+  display: block;
+  margin: 0 auto;
 }
 .heading {
   font-family: "Pacifico", cursive;
   font-size: 100px;
   color: white;
+  text-align: center;
 }
 .sub {
   font-size: 30px;
@@ -40,24 +51,38 @@ nav {
   text-transform: uppercase;
   margin-bottom: 50px;
   letter-spacing: 5px;
+  text-align: center;
+}
+.subheading {
+  font-size: 20px;
+  color: #0cc0df;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
 }
 .intro-parts {
   margin-top: 100px;
-  margin-left: 30px;
 }
-/**--------font awesome-------**/
+.Jen-Headshot {
+  margin-bottom: 100px;
+  max-height: 500px;
+}
 
-.fa-burger {
-  color: #171539;
-  width: 30px;
-  height: 30px;
+/**--------buttons-------**/
+
+.btn-outline-primary {
+  color: #0cc0df;
+  border: solid 2px #0cc0df;
 }
-.fa-burger:hover {
-  color: #f8049c;
-  width: 30px;
-  height: 30px;
-  animation: spin 0.5s linear;
+
+.btn-outline-primary:hover {
+  background-color: #f8049c;
+  color: white;
+  border: solid 2px white;
 }
+
+/**--------font awesome-------**/
 
 .fa-react,
 .fa-bootstrap,
@@ -67,12 +92,23 @@ nav {
   width: 60px;
   height: 60px;
 }
-
-.fa-react:hover,
-.fa-bootstrap:hover,
-.fa-apple:hover,
-.svgVS:hover {
+.fa-arrow-down-long {
+  height: 30px;
   color: #0cc0df;
+}
+.fa-react:hover {
+  color: #0cc0df;
+  animation: spin 1s linear;
+}
+.fa-bootstrap:hover {
+  color: #7a43b6;
+  animation: spin 1s linear;
+}
+.fa-apple:hover {
+  color: #a0a0a0;
+  animation: spin 1s linear;
+}
+.svgVS:hover {
   animation: spin 1s linear;
 }
 
@@ -80,44 +116,12 @@ nav {
   text-align: center;
 }
 
-/**--------navbar-------**/
-
-.nav-link {
-  color: #f8049c;
-  text-transform: uppercase;
-  text-align: center;
-}
-a.nav-link:active {
-  color: #f8049c;
-}
-.nav-link:hover {
-  color: #0cc0df;
-}
-
-.nav-link:checked {
-  color: #f8049c;
-}
-
-li.nav-tabs:active {
-  color: #0cc0df;
-}
-
-.text-highlight {
-  color: #f8049c;
-  text-decoration: none;
-}
-
-.navbar-toggler {
-  border: none;
-}
-
-/**--------animations-------**/
-
 @keyframes spin {
-  0% {
+  from {
     transform: rotate(0deg);
   }
-  100% {
+  to {
     transform: rotate(360deg);
   }
 }
+/**--------navbar-------**/
