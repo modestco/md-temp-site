@@ -5,11 +5,9 @@ import Current from "./Current";
 function App() {
   return (
     <div className="App">
-      <div className="container">
-        <Intro />
-        <div className="current">
-          <Current />
-        </div>
+      <Intro />
+      <div className="current">
+        <Current />
       </div>
     </div>
   );
