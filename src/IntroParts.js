@@ -46,7 +46,8 @@ function introparts() {
       <h5 className="firstpara">
         Jen is a passionate designer with 15 years of experience, spanning
         across multiple industries. Her corporate employment history is focused
-        on Marketing and Graphic Design, with a diploma in Business.Check out{" "}
+        on Marketing and Graphic Design, with a diploma in Business from
+        Sheridan College. Check out{" "}
         <a
           className="MDco"
           href="https://www.linkedin.com/in/jenluchka/"
@@ -54,9 +55,9 @@ function introparts() {
           rel="noopener noreferrer"
         >
           her LinkedIn profile
-        </a>
+        </a>{" "}
         for her corporate resume. <br />
-        Aside from working for corporations, Jen has thoroughly enjoyed
+        Aside from working corporate positions, Jen has thoroughly enjoyed
         assisting small businesses and independent contractors with brand
         itentities, logos, social media support, and a wide range of digital and
         print collatoral over the years. She has her own brand{" "}
@@ -67,7 +68,7 @@ function introparts() {
           rel="noopener noreferrer"
         >
           Modest Design Co <div className="fa-brands fa-instagram"></div>
-        </a>
+        </a>{" "}
         she has been building outside of her 9-5 since 2012. She recently
         rebranded MD.co to showcase how far her design skills have come, while
         bringing the brand into 2023 and beyond.
@@ -75,7 +76,7 @@ function introparts() {
           Check out the rebrand and her recent clients{" "}
           <div className="fa-duotone fa-arrow-down-long"></div>
         </h2>
-        <a href="www.modestco.ca" target="_blank" rel="noopener noreferrer">
+        <a href="./ModestCo.js" target="_blank" rel="noopener noreferrer">
           <img className="md-co-gif" src={mdCoLink} alt="" width="300px" />
         </a>
         <br />
