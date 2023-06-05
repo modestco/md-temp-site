@@ -76,7 +76,7 @@ function introparts() {
           <div className="fa-duotone fa-arrow-down-long"></div>
         </h2>
         <a href="www.modestco.ca" target="_blank" rel="noopener noreferrer">
-          <img className="md-co-gif" src={mdCoLink} width="300px" />
+          <img className="md-co-gif" src={mdCoLink} alt="" width="300px" />
         </a>
         <br />
         Jen's passion{" "}
